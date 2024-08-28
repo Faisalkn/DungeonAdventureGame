@@ -169,7 +169,7 @@ public class Dungeon {
      * @param theFilePath the file path to write the maze to
      */
     public void writeMazeToFile(String theFilePath) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("DungeonAdventure/src/Maps/" + theFilePath))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("src/Maps/" + theFilePath))) {
             // Write the top parts of the rooms in the first row
             StringBuilder topRow = new StringBuilder();
             StringBuilder bottomRow = new StringBuilder();

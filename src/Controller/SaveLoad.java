@@ -13,7 +13,7 @@ import java.util.Objects;
 
 public class SaveLoad {
     private final DungeonPanel myDungeonPanel;
-    private static String SAVE_FILE_PATH = "DungeonAdventure/src/SaveGame/save.dat";
+    private static String SAVE_FILE_PATH = "src/SaveGame/save.dat";
 
     public SaveLoad(DungeonPanel theDungeonPanel) {
         myDungeonPanel = theDungeonPanel;

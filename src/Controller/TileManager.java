@@ -165,7 +165,7 @@ public class TileManager implements Serializable{
         loadMap();
     }
     public void loadMap(){
-        try (BufferedReader reader = new BufferedReader(new FileReader(("DungeonAdventure/src/Maps/Maze.txt")))){
+        try (BufferedReader reader = new BufferedReader(new FileReader(("src/Maps/Maze.txt")))){
             for(int row = 0; row < this.myRow; row++) { // 20
                 String line = reader.readLine();
                 for(int col = 0; col < this.myCol; col++) { // 20
